@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^4.0.2"
+    "cypress": "^4.0.2",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.6.2"
   }
 }
